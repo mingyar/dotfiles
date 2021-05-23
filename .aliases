@@ -16,6 +16,8 @@ alias gs="git status"
 alias gd="git diff"
 alias gb="git branch"
 alias gm="git checkout master"
+alias gmm="git checkout main"
+alias gcm="git commit -m"
 # SHOW/HIDE HIDDEN FILES
 alias showhidden="defaults write com.apple.finder AppleShowAllFiles -bool true && killall Finder
 alias hidehidden="defaults write com.apple.finder AppleShowAllFiles -bool false && killall Finder
